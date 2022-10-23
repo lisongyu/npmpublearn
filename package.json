@@ -1,0 +1,19 @@
+{
+  "name": "npm-pub-learn",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "release-it",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.5.0",
+    "vite": "^3.1.0"
+  }
+}
